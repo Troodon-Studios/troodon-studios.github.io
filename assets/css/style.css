@@ -42,6 +42,7 @@ Tags: HTML, Template, Coming Soon, Kite
 /* 1 - Import Google Font
 ---------------------------------------------------------------------- */
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700);
 /* 1 - Import Google Font End 
 ---------------------------------------------------------------------- */
@@ -88,6 +89,7 @@ a:focus{
 }
 .section-name span{
 	display:inline-block;
+	font-family: 'Kdam Thmor Pro', sans-serif;
 	position:relative;
 	padding-bottom:15px;
 }
@@ -107,10 +109,11 @@ a:focus{
 	bottom:2px;
 }
 .section-title{
+	font-family: 'Kdam Thmor Pro', sans-serif;
 	text-align:center;
 	text-transform:uppercase;
 	font-weight:300;
-	font-size:80px;
+	font-size:30px;
 }
 .section-description{
 	font-weight:300;
@@ -465,7 +468,7 @@ a:focus{
 .site-title{
 	text-align:center;
 	font-size:66px;
-	font-family:'Pacifico';
+	font-family: 'Kdam Thmor Pro', sans-serif;
 	margin:0 0 50px 0;
 	padding-bottom:50px;
 	position:relative;
@@ -1176,6 +1179,12 @@ background: #00aaff;
 		opacity: 0;
 		transform: scale(1);
 	}
+}
+@font-face {
+	font-family: 'jd_code'; /* Debe coincidir con el nombre que estableciste en font-family arriba */
+	src: url('/assets/fonts/jd_code.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* 10 - Preloader End
